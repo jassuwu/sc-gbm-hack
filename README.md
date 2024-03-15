@@ -25,6 +25,8 @@ Our plan involves the following steps:
 3. **Training**: Train your selected model on your prepared dataset. During training, the model will learn to classify signature images as either original or forged.
 4. **Evaluation**: After training, evaluate your model's performance on a separate test set.
 
+The CNN model is specifically trained on large number of dense layers to overfit the training data and match the signature exactly.
+
 ### Siamese Network Approach
 
 1. **Data Collection**: Gather a dataset of cheques with signatures.
